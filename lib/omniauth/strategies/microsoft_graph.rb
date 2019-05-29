@@ -3,7 +3,7 @@ require 'omniauth-oauth2'
 module OmniAuth
   module Strategies
     class MicrosoftGraph < OmniAuth::Strategies::OAuth2
-      option :name, :microsoft_graph
+      option :name, :microsoft_onenote
 
       option :client_options, {
         site:          'https://login.microsoftonline.com',
