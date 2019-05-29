@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'omniauth/microsoft_graph/version'
+require 'omniauth/microsoft_onenote/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-microsoft_graph"
+  spec.name          = "omniauth-microsoft_onenote"
   spec.version       = Omniauth::MicrosoftGraph::VERSION
   spec.authors       = ["Peter Philips", "Joel Van Horn"]
   spec.email         = ["pete@p373.net", "joel@joelvanhorn.com"]
