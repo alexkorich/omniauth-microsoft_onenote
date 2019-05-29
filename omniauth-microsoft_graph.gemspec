@@ -5,7 +5,7 @@ require 'omniauth/microsoft_onenote/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-microsoft_onenote"
-  spec.version       = Omniauth::MicrosoftGraph::VERSION
+  spec.version       = Omniauth::MicrosoftOnenote::VERSION
   spec.authors       = ["Peter Philips", "Joel Van Horn"]
   spec.email         = ["pete@p373.net", "joel@joelvanhorn.com"]
   spec.summary       = %q{omniauth provider for Microsoft Graph}
